@@ -105,3 +105,16 @@ a{
   width: 270px;
   margin-bottom: 20px;
 }
+
+/*plant lover section*/
+.plant-lover-section{
+  display: flex;
+  gap: 40px;
+  max-width: 1140px;
+  margin: 100px auto;
+}
+
+.plant-lover-title{
+  font-size: 4rem;
+  font-weight: bold;
+}
