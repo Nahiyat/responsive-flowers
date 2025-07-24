@@ -118,3 +118,57 @@ a{
   font-size: 4rem;
   font-weight: bold;
 }
+
+/*Deal section*/
+/*
+.deal-section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1140px;
+}
+
+.deal-img-section-1{
+  display: grid;
+  grid-template-rows: repeat(2, 50%);
+}
+*/
+
+/*join email*/
+.join-section-bg-img{
+  background-image: url(../assets/news-letter-bg.png);
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-section-text{
+  max-width: 830px;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.join-section-title{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.subscribe-form{
+  display: flex;
+  gap: 0px;
+
+}
+
+.subscribe-btn{
+  height: 50px;
+  margin-left: 0px;
+  height: 52px;
+}
+
+input[type="email"]{
+    height: 50px;
+    background-color: white;
+    width: 500px;
+    border: none;
+}
