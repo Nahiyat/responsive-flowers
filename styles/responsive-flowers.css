@@ -172,3 +172,34 @@ input[type="email"]{
     width: 500px;
     border: none;
 }
+
+/*footer section*/
+footer{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3,32% 38% 30%);
+  gap: 20px;
+}
+
+.footer-link-div{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+ul li{
+  padding-bottom: 20px;
+  list-style: none;
+}
+
+.social-media-icons{
+  display: grid;
+  grid-template-columns: repeat(4, 0.25fr);
+  align-items: start;
+}
+
+.twitter-icon{
+  padding-top: 14px;
+}
